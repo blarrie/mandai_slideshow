@@ -4,7 +4,7 @@
 
 This repo is to keep track of the slideshow display server hosted on a raspberry pi.
 The raspberry pi will be in kiosk mode, and make use of node.js and bootstrap.
-Most of the setup is taken from https://www.iotshaman.com/blog/content/configuring-raspberry-pi-to-run-a-nodejs-server.
+Most of the setup is adapted from https://www.iotshaman.com/blog/content/configuring-raspberry-pi-to-run-a-nodejs-server.
 
 ### Dependencies
 
@@ -28,5 +28,10 @@ $ sudo apt-get install git -y
 $ git clone https://github.com/kbrown333/api_starter.git
 $ cd api_starter
 $ npm install
+```
+
+### Running the App
+
+```
 $ npm start
 ```
