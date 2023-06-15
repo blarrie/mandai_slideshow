@@ -1,34 +1,29 @@
-# Mandai_Slideshow
+# mandai
 
-## Description
+This template should help get you started developing with Vue 3 in Vite.
 
-This repo is to keep track of the slideshow display server hosted on a raspberry pi.
-The raspberry pi will be in kiosk mode, and make use of node.js and bootstrap.
-Most of the setup is adapted from https://www.iotshaman.com/blog/content/configuring-raspberry-pi-to-run-a-nodejs-server.
+## Recommended IDE Setup
 
-### Dependencies
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-Run the following commands to install vuejs and npm.
+## Customize configuration
 
-```
-sudo apt-get install npm 
-sudo npm install n -g
-sudo npm install npm@latest -g
-sudo npm install vue@next
-sudo npm install -g @vue/cli
-sudo npm update -g @vue/cli
-```
-Install git to clone a sample application
+See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-```
-$ sudo apt-get install git -y
+## Project Setup
+
+```sh
+npm install
 ```
 
-## Downloading Sample Application
+### Compile and Hot-Reload for Development
 
-
-### Running the App
-
+```sh
+npm run dev
 ```
-$ npm start
+
+### Compile and Minify for Production
+
+```sh
+npm run build
 ```

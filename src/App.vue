@@ -2,7 +2,6 @@
 // import HelloWorld from './components/HelloWorld.vue'
 // import TheWelcome from './components/TheWelcome.vue'
 import HomeView from './components/HomeView.vue'
-import Carousel from './components/Carousel.vue';
 </script>
 
 <template>
