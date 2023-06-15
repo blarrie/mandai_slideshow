@@ -8,13 +8,15 @@ Most of the setup is adapted from https://www.iotshaman.com/blog/content/configu
 
 ### Dependencies
 
-Run the following commands to install nodejs, npm and node-semver.
+Run the following commands to install vuejs and npm.
 
 ```
-$ sudo apt-get install nodejs npm node-semver -y 
-$ sudo npm install n -g
-$ sudo n stable
-$ sudo npm install npm@latest -g
+sudo apt-get install npm 
+sudo npm install n -g
+sudo npm install npm@latest -g
+sudo npm install vue@next
+sudo npm install -g @vue/cli
+sudo npm update -g @vue/cli
 ```
 Install git to clone a sample application
 
@@ -24,11 +26,6 @@ $ sudo apt-get install git -y
 
 ## Downloading Sample Application
 
-```
-$ git clone https://github.com/kbrown333/api_starter.git
-$ cd api_starter
-$ npm install
-```
 
 ### Running the App
 
