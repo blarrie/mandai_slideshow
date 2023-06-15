@@ -7,11 +7,14 @@
     "build": "vite build",
     "preview": "vite preview"
   },
-  "dependencies": {
-    "vue": "^3.3.4"
-  },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
     "vite": "^4.3.9"
+  },
+  "dependencies": {
+    "node": "^20.2.0",
+    "require": "^2.4.20",
+    "vue-agile": "^2.0.0",
+    "vue3-carousel": "^0.3.1"
   }
 }
