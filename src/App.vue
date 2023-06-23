@@ -2,6 +2,7 @@
 // import HelloWorld from './components/HelloWorld.vue'
 // import TheWelcome from './components/TheWelcome.vue'
 import HomeView from './components/HomeView.vue'
+// import Swiper from 'swiper';
 </script>
 
 <template>
@@ -12,6 +13,7 @@ import HomeView from './components/HomeView.vue'
 
   <main style="align-items: center; background-color: black;">
     <HomeView />
+    <!-- <Swiper /> -->
   </main>
 </template>
 

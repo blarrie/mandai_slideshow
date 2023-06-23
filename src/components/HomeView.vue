@@ -4,7 +4,7 @@
     <template #slides>
       <Slide v-for="photo in photos" :key="photo">
         <div class="carousel__item">
-          <img :src="`src/assets/${photo}`" style="height: 100vh;">
+          <img :src="`/${photo}`" style="height: 100vh;">
         </div>
       </Slide>
     </template>
